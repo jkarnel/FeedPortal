@@ -4,7 +4,10 @@ using System.Text;
 
 namespace FeedPortal.Core.Entities
 {
-    class FeedCollection
+    public class FeedCollection
     {
+        public int Id { get; set; }
+        public int UserId { get; set; }
+        public string Name { get; set; }
     }
 }

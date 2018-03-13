@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FeedPortal.Core.Entities
+namespace FeedPortal.Core.Enums
 {
     public enum FeedSourceType
     {

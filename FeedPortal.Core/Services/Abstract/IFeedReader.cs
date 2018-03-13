@@ -5,8 +5,8 @@ using System.Text;
 
 namespace FeedPortal.Core.Services.Abstract
 {
-    public interface IFeedSorceProvider
+    public interface IFeedReader
     {
-        List<Feed> GetAllFeeds(FeedSource source);
+        List<FeedItem> GetAllFeeds(FeedSource source);
     }
 }

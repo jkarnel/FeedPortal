@@ -9,7 +9,7 @@ namespace FeedPortal.WebApi.Controllers
 {
     [Produces("application/json")]
     [Route("api/Collection")]
-    public class CollectionController : Controller
+    public class CollectionController : ControllerBase
     {
         // GET: api/Collection
         [HttpGet]

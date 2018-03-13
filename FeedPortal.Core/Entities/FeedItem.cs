@@ -4,19 +4,13 @@ using System.Text;
 
 namespace FeedPortal.Core.Entities
 {
-    public class FeedSource
+    public class FeedItem
     {
-        public FeedSource(string url, FeedSourceType type)
-        {
-            Url = url;
-            Type = type;
-        }
-
         public int Id { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
+        public string Url { get; set; }
         public byte[] Image { get; set; }
-        public string Url { get; private set; }
-        public FeedSourceType Type { get; private set; }
+        public DateTime PublicationDateTime { get; set; }
     }
 }

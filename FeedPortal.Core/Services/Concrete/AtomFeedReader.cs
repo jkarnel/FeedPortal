@@ -2,14 +2,13 @@
 using FeedPortal.Core.Services.Abstract;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
 namespace FeedPortal.Core.Services.Concrete
 {
-    public class RssFeedSourceProvider : IFeedSorceProvider
+    public class AtomFeedReader : IFeedReader
     {
-        public List<Feed> GetAllFeeds(FeedSource source)
+        public List<FeedItem> GetAllFeeds(FeedSource source)
         {
             throw new NotImplementedException();
         }
